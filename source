@@ -1,0 +1,37 @@
+-- Auto Farm for Build A Boat For Treasure
+-- Place Single Block on Land
+-- Save Slot
+-- Execute
+
+local A_1 = "3"
+local A_2 = 0
+local Event = game:GetService("Workspace").LoadBoatData
+Event:FireServer(A_1, A_2)
+
+local Event = game:GetService("Workspace").CamoZone.RE
+Event:FireServer()
+i = 1
+while i == 1 do
+    local character = game.Players.LocalPlayer.Character
+    local humanoid = character.HumanoidRootPart
+    humanoid.CFrame = CFrame.new(-55, 30, 1800)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 2500)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 3400)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 4100)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 5000)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 5800)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 6400)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 7200)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55, 30, 8000)
+    wait(2)
+    humanoid.CFrame = CFrame.new(-55.486392974854, -356.00375, 9496.99)
+    wait(10)
+end
